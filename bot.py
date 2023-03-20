@@ -100,11 +100,11 @@ def help(_, message):
             [
                 [
                     InlineKeyboardButton("📚 Commands", callback_data="commands"),
-                    InlineKeyboardButton("❤️ Support", url="https://t.me/DirectLinksChannel"),
+                    InlineKeyboardButton("❤️ Support", url="https://t.me/Bae_wafa"),
                 ],
                 [
                     InlineKeyboardButton("🤖 About", callback_data="about"),
-                    InlineKeyboardButton("📣 Updates", url="https://t.me/DirectLinksUpdates"),
+                    InlineKeyboardButton("📣 Updates", url="https://t.me/Bae_wafa"),
                 ],
             ]
         ),
@@ -114,7 +114,7 @@ def help(_, message):
 @app.on_callback_query()
 def callback_handlers(_, query):
     if query.data == "about":
-        text = "This bot was created by [SenuGamerBoy](https://t.me/SenuGamerBoy). It is open source and its source code is available on [GitHub](https://github.com/SenuGamerBoy/TeraboxBypassBot)."
+        text = "This bot was created by [SenuGamerBoy](https://t.me/Bae_wafa). It is open source and its source code is available on [GitHub](https://github.com/SenuGamerBoy)."
         query.answer()
         query.edit_message_text(text, disable_web_page_preview=True, parse_mode="markdown")
     elif query.data == "commands":
