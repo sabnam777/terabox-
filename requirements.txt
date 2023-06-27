@@ -1,4 +1,5 @@
-ddllist HELP_TEXT
+ddllist
+HELP_TEXT
 ddl
 texts
 threading
